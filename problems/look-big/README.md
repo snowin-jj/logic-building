@@ -18,6 +18,9 @@ The Challenge:
 
 # My Version
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function narcissistic(value) {
   const values = String(value).split("");
@@ -30,6 +33,9 @@ function narcissistic(value) {
   return sum === value;
 }
 ```
+
+</details>
+<br >
 
 # Chat GPT's Review
 
@@ -51,6 +57,9 @@ The performance and runtime of this function are efficient. The time complexity 
 
 ## Improved Version:
 
+<details>
+<summary>View GPT's Solution</summary>
+
 ```javascript
 function narcissistic(value) {
   const digits = String(value);
@@ -64,6 +73,9 @@ function narcissistic(value) {
   return sum === value;
 }
 ```
+
+</details>
+<br >
 
 ## Performance Comparison:
 

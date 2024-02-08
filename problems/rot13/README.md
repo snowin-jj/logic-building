@@ -14,6 +14,9 @@ ROT13 is a simple letter substitution cipher that replaces a letter with the let
 
 # My version
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function rot13(str) {
   return str.replace(/[a-zA-Z]/g, function (char) {
@@ -23,6 +26,9 @@ function rot13(str) {
   });
 }
 ```
+
+</details>
+<br >
 
 # Chat GPT's Review
 
@@ -44,6 +50,9 @@ The performance and runtime of this function are efficient. The time complexity 
 
 ## Improved Version:
 
+<details>
+<summary>View GPT's Solution</summary>
+
 ```javascript
 function rot13(str) {
   var result = "";
@@ -61,6 +70,9 @@ function rot13(str) {
   return result;
 }
 ```
+
+</details>
+<br >
 
 ## Performance Comparison:
 

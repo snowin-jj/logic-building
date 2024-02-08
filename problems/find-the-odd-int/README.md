@@ -12,6 +12,9 @@ Given an array of integers, find the one that appears an odd number of times. Th
 
 # My version 🫣
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function count(array) {
   const result = new Map();
@@ -40,6 +43,9 @@ function findOdd(array) {
   return oddCountItem;
 }
 ```
+
+</details>
+<br >
 
 # Code Review (by Mr.GPT)
 
@@ -71,6 +77,9 @@ function findOdd(array) {
 
 Here's an improved version of the `findOdd` function:
 
+<details>
+<summary>View GPT's Solution</summary>
+
 ```javascript
 function findOdd(array) {
   const countMap = new Map();
@@ -88,6 +97,9 @@ function findOdd(array) {
   return null; // No odd count found
 }
 ```
+
+</details>
+<br >
 
 ## Validation:
 

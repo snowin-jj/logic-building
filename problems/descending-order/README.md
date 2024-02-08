@@ -4,6 +4,9 @@ Rearrange Digits to Create the Highest Possible Number
 
 # My Version
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function descendingOrder(n) {
   return +String(n)
@@ -11,9 +14,10 @@ function descendingOrder(n) {
     .sort((a, b) => b - a)
     .join("");
 }
-
-console.log(descendingOrder(42145));
 ```
+
+</details>
+<br >
 
 # Chat GPT's Review
 

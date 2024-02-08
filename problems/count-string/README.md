@@ -4,6 +4,9 @@ The main idea is to count all the occurring characters in a string. If you have 
 
 # My Version
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function count(string) {
   const results = new Map();
@@ -18,9 +21,10 @@ function count(string) {
 
   return Object.fromEntries(results);
 }
-
-console.log(count("aylabayu"));
 ```
+
+</details>
+<br >
 
 # Chat GPT's Review
 
@@ -44,6 +48,9 @@ console.log(count("aylabayu"));
 
 ## Improved Version:
 
+<details>
+<summary>View GPT's Solution</summary>
+
 ```javascript
 function countWithObject(string) {
   const results = {};
@@ -56,7 +63,8 @@ function countWithObject(string) {
 }
 ```
 
-s
+</details>
+<br >
 
 ## Performance Comparison:
 

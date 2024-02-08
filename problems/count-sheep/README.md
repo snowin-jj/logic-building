@@ -16,6 +16,9 @@ Consider an array/list of sheep where some sheep may be missing from their place
 
 # My version 👶
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function countSheep(sheepList) {
   let sheepCount = 0;
@@ -26,3 +29,6 @@ function countSheep(sheepList) {
   return sheepCount;
 }
 ```
+
+</details>
+<br >

@@ -19,6 +19,9 @@ If the two numbers are equal return a or b.
 
 # My version
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function getSum(a, b) {
   let sum = 0;
@@ -30,6 +33,9 @@ function getSum(a, b) {
   return sum;
 }
 ```
+
+</details>
+<br >
 
 # Chat GPT's Review
 
@@ -47,6 +53,9 @@ The performance and runtime of this function are acceptable for most inputs. The
 
 ## Improved Version:
 
+<details>
+<summary>View GPT's Solution</summary>
+
 ```javascript
 function getSum(a, b) {
   // Using arithmetic sum formula for consecutive integers
@@ -54,9 +63,10 @@ function getSum(a, b) {
   const endIndex = Math.max(a, b);
   return ((endIndex - startIndex + 1) * (startIndex + endIndex)) / 2;
 }
-
-console.log(getSum(1, 0));
 ```
+
+</details>
+<br >
 
 ## Performance Comparison:
 

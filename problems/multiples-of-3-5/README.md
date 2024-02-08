@@ -11,6 +11,9 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 
 # My version
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function sumMultiplesThreeAndFive(number) {
   if (number < 0) return 0;
@@ -25,6 +28,9 @@ function sumMultiplesThreeAndFive(number) {
   return sum;
 }
 ```
+
+</details>
+<br >
 
 # Chat GPT's Review
 
@@ -48,6 +54,9 @@ For very large input numbers, this can result in a large number of iterations, l
 
 ## Improved Version:
 
+<details>
+<summary>View GPT's Solution</summary>
+
 ```javascript
 function sumMultiplesThreeAndFive(number) {
   if (number < 0) return 0;
@@ -62,6 +71,9 @@ function sumMultiplesThreeAndFive(number) {
   return sum;
 }
 ```
+
+</details>
+<br >
 
 ## Performance Comparison:
 

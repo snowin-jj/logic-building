@@ -17,6 +17,9 @@ Signature will always contain 3 numbers; n will always be a non-negative number;
 
 # My version
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function tribonacci(input, n) {
   if (n === 0) return [];
@@ -37,6 +40,9 @@ function tribonacci(input, n) {
   return result;
 }
 ```
+
+</details>
+<br >
 
 # GPT's Review
 
@@ -61,6 +67,9 @@ Overall, the given implementation has a time complexity of O(n) and a space comp
 
 Here's an improved version of the program:
 
+<details>
+<summary>View GPT's Solution</summary>
+
 ```javascript
 function tribonacci(input, n) {
   if (n === 0) return [];
@@ -76,5 +85,8 @@ function tribonacci(input, n) {
   return result;
 }
 ```
+
+</details>
+<br >
 
 This improved version avoids unnecessary calculations and optimizes memory usage by not storing the entire sequence in memory. It only stores the necessary elements to generate the Tribonacci sequence up to the `n`th element.

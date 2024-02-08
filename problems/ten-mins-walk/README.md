@@ -14,6 +14,9 @@ It will never give you an empty array (that's not a walk, that's standing still!
 
 # My version
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function isValidWalk(walk) {
   if (walk.length !== 10) {
@@ -35,6 +38,9 @@ function isValidWalk(walk) {
 }
 ```
 
+</details>
+<br >
+
 # Chat GPT's Review
 
 ## Performance and Runtime:
@@ -54,6 +60,9 @@ The performance and runtime of this function are efficient. The time complexity 
 **Readability:** The function is clear and easy to understand, with descriptive variable names and comments for explanation.
 
 ## Improved Version:
+
+<details>
+<summary>View GPT's Solution</summary>
 
 ```javascript
 function isValidWalk(walk) {
@@ -78,6 +87,9 @@ function isValidWalk(walk) {
   return count.n === count.s && count.e === count.w;
 }
 ```
+
+</details>
+<br >
 
 ## Performance Comparison:
 
