@@ -13,6 +13,9 @@ Jaden-Cased: "How Can Mirrors Be Real If Our Eyes Aren't Real"
 
 # My version
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function capitalize(value = "") {
   let input = value.split(" ");
@@ -35,6 +38,9 @@ function capitalize(value = "") {
 }
 ```
 
+</details>
+<br >
+
 # Chat GPT's Review
 
 **1. Correctness:**
@@ -54,11 +60,17 @@ The code can be optimized by using built-in JavaScript functions or regular expr
 
 Here's an improved version of the code using regular expressions for capitalization:
 
+<details>
+<summary>View GPT's Solution</summary>
+
 ```javascript
 function capitalize(value = "") {
   return value.replace(/\b\w/g, (char) => char.toUpperCase());
 }
 ```
+
+</details>
+<br >
 
 This version uses a regular expression `(\b\w)` to match the first letter of each word and then applies the `toUpperCase` function to capitalize it. The `replace` function is used to replace each matched letter with its uppercase version. This approach simplifies the code and improves performance compared to the nested loop approach.
 
