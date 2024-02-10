@@ -13,4 +13,11 @@ This folder contains coding challenges and solutions to help you improve your pr
 
 Check back soon as more topics and challenges are added!
 
+## Levels
+
+- [Easy](./easy/)
+- [Medium](./medium/)
+- [Hard](./hard/)
+- [Pro](./pro/)
+
 I hope you find this repo helpful for advancing your coding abilities. Feel free to use these exercises and solutions. Happy coding!
