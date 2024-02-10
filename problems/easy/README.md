@@ -1,3 +1,6 @@
+<details>
+<summary>Get Motivated (feels like advice 😐)</summary>
+
 ## Don't worry, we've all been there!
 
 Hey there, fellow coding explorer! I know you might be staring at that problem, feeling like it's taking forever to unravel. Trust me, we've all been there. Remember, **these challenges are here to help you learn and grow**, not discourage you.
@@ -14,3 +17,6 @@ So, **don't get down if you get stuck**. It's part of the journey! Take a break,
 - **We're all in this together!** Don't be afraid to ask for help and share your knowledge.
 
 Now, go forth and conquer that code!
+
+</details>
+<br >
