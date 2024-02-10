@@ -1,5 +1,5 @@
 <details>
-<summary>Get Motivated (feels like advice 😐)</summary>
+<summary>Get Motivated (feels like advice 🙂)</summary>
 
 ## Don't worry, we've all been there!
 
