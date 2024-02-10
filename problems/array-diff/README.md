@@ -102,3 +102,5 @@ The improved version offers both performance and readability enhancements, makin
 ## Why Gemini?
 
 ChatGPT solutions don't pass all the test cases. I don't know why! So, why not use Gemini? The transition from Bard to Gemini is game-changing for Google.
+
+**Ref:** https://www.codewars.com/kata/523f5d21c841566fde000009/javascript
