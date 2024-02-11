@@ -55,7 +55,7 @@ The code successfully fulfills the task of moving all zeros to the end of the ar
 Here's an alternative solution that utilizes a two-pointer approach, improving performance and adhering to best practices:
 
 <details>
-<summary>View Solution</summary>
+<summary>View AI's Solution</summary>
 
 ```javascript
 function moveZeros(arr = []) {

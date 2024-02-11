@@ -75,6 +75,8 @@ The code successfully implements the "pig latin" transformation, moving the firs
 **Alternative Solution:**
 
 While the current solution is efficient and well-written, here's an alternative using a regular expression:
+<details>
+<summary>View AI's Solution</summary>
 
 ```javascript
 function pigIt(value = "") {
@@ -84,6 +86,8 @@ function pigIt(value = "") {
   );
 }
 ```
+</details>
+<br >
 
 This solution can be slightly faster for large inputs due to the efficiency of regular expressions. However, it might be less readable and flexible for more complex transformations.
 
