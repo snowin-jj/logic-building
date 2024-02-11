@@ -123,3 +123,5 @@ The alternative solution offers significantly better performance due to its O(n)
 ## Conclusion:
 
 The alternative solution is a better choice due to its superior performance and adherence to best practices. It demonstrates a more efficient approach to achieve the same outcome while maintaining good code quality.
+
+**Ref:** https://www.codewars.com/kata/52597aa56021e91c93000cb0/javascript
