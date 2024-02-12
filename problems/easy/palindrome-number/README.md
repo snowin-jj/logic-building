@@ -95,3 +95,6 @@ Both solutions are valid and achieve the desired functionality. Choose the one t
 - If performance for very large numbers is critical, consider the alternative.
 
 Always consider edge cases and best practices when writing code.
+
+
+**Ref:** https://leetcode.com/problems/palindrome-number/description
