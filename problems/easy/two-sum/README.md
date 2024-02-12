@@ -92,3 +92,6 @@ console.log(twoSum([2, 7, 11, 15], 9)); // Output: [0, 1]
 
 - For edge cases like repeated numbers, the solution might return multiple valid pairs. Consider returning only the first or last occurrence based on specific requirements.
 - If dealing with very large arrays or memory constraints, alternative methods like sorting and two-pointer techniques can be explored.
+
+
+**Ref:** https://leetcode.com/problems/two-sum/description
