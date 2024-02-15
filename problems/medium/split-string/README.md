@@ -78,3 +78,5 @@ This approach leverages the `match` method to split the string into chunks of up
 - If you're comfortable with regular expressions and value conciseness, the alternative solution is worth considering.
 
 Both solutions have similar performance characteristics, so the choice often depends on personal preferences and readability considerations.
+
+**Ref:** https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
