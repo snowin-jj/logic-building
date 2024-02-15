@@ -54,12 +54,17 @@ function splitString(value = "") {
 
 Here's an alternative solution using a regular expression that might be slightly more concise:
 
+<details>
+<summary>View Solution</summary>
+
 ```javascript
 function splitString(value = "") {
   if (value.trim() === "") return [];
   return value.match(/.{1,2}/g).map((pair) => pair.padEnd(2, "_"));
 }
 ```
+</details>
+<br >
 
 This approach leverages the `match` method to split the string into chunks of up to 2 characters and then pads each chunk with an underscore if needed using `padEnd`.
 
