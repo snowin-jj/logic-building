@@ -12,6 +12,8 @@ Output: [7,0,8]
 Explanation: 342 + 465 = 807.
 ```
 
+![example 1](./img.jpg)
+
 **Example 2:**
 
 ```
@@ -31,6 +33,22 @@ Output: [8,9,9,9,0,0,0,1]
 - The number of nodes in each linked list is in the range `[1, 100]`.
 - `0 <= Node`. `val <= 9`
 - It is guaranteed that the list represents a number that does not have leading `zeros`.
+
+<br>
+
+<details>
+<summary><strong>
+A small hint that helped me
+</strong></summary>
+
+```javascript
+let l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
+let l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
+addTwoNumbers(l1, l2);
+```
+
+</details>
+<br >
 
 # My Version
 
