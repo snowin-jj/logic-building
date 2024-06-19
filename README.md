@@ -1,6 +1,6 @@
 # Coding and Design Challenges
 
-Welcome to my coding and design challenges repository!
+Welcome to my coding and design challenges repository
 
 This repository contains a collection of coding and design challenges that I've created to enhance and improve my skills.
 
